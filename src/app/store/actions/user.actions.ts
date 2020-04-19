@@ -9,13 +9,12 @@ export enum EUserActions {
   GetUserSuccess = '[User] Get User Success'
 }
 
-
 export class GetUsers implements Action {
-  public readonly type = EUserActions.GetUser;
+  public readonly type = EUserActions.GetUsers;
 }
 
 export class GetUsersSuccess implements Action {
-  public readonly type = EUserActions.GetUserSuccess;
+  public readonly type = EUserActions.GetUsersSuccess;
   constructor(public payload: IUser[]) {}
 }
 
