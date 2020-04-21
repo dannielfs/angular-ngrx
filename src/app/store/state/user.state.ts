@@ -1,7 +1,7 @@
 import { IUser } from '../../models/user.interface'
 
 export interface IUserState {
-  users: IUser[]
+  users: IUser[];
   selectedUser: IUser;
 }
 
